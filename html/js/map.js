@@ -1,0 +1,1 @@
+var map=null,icon=L.icon({iconUrl:"./images/marker.png"}),markers=[];function initMap(){map=L.map("map").setView([10.823099,106.829664],10),L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:'&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map),map.removeControl(map.attributionControl)}initMap();
